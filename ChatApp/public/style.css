@@ -1,0 +1,19 @@
+#chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#messages {
+    list-style-type: none;
+    padding: 0;
+}
+
+#chat-form {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+}
